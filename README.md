@@ -28,6 +28,22 @@ This will wrap each video in a `div.fluid-width-video-wrapper` and apply the nec
 <tr><td>Kickstarter</td><td> Y</td></tr>
 </table>
 
+## Extended Supported Players
+I updated FitVids to address common players we see people using on our [Style Hatch Tumblr themes](http://stylehatch.co).  Additionally there is a Tumblr specific selector to not apply to the Tumblr Flash audio players.
+<table>
+<tr><td>Funny or Die</td><td>Y</td></tr>
+<tr><td>MTV Videos</td><td>Y</td></tr>
+<tr><td>Apple Trailers</td><td>Y</td></tr>
+<tr><td>Brightcove</td><td>Y</td></tr>
+<tr><td>Blip</td><td> Y</td></tr>
+<tr><td>Break</td><td> Y</td></tr>
+<tr><td>Trailer Addict</td><td> Y</td></tr>
+<tr><td>Yahoo Videos</td><td> Y</td></tr>
+<tr><td>Daily Motion</td><td> Y</td></tr>
+<tr><td>Metacafe</td><td> Y</td></tr>
+<tr><td>Soundcloud</td><td> Y</td></tr>
+</table>
+
 ## Add Your Own Video Vendor
 Have a custom video player? We now have a `customSelector` option where you can add your own specific video vendor selector (_mileage may vary depending on vendor and fluidity of player_):
 
