@@ -53,8 +53,24 @@
         "iframe[src*='www.youtube.com']",
         "iframe[src*='www.youtube-nocookie.com']",
         "iframe[src*='www.kickstarter.com']",
-        "object",
-        "embed"
+        // Adding common Tumblr video players
+        // List compiled from http://ialreadydontlikeyou.tumblr.com/post/19574163656/a-modification-to-fitvids-js
+        "iframe[src*='www.funnyordie.com']",
+        "iframe[src*='media.mtvnservices.com']",
+        "iframe[src*='trailers.apple.com']",
+        "iframe[src*='www.brightcove.com']",
+        "iframe[src*='blip.tv']",
+        "iframe[src*='break.com']",
+        "iframe[src*='www.traileraddict.com']",
+        "iframe[src*='d.yimg.com']",
+        "iframe[src*='movies.yahoo.com']",
+        "iframe[src*='www.dailymotion.com']",
+        "iframe[src*='s.mcstatic.com']",
+        // Adding Soundcloud since Tumblr decided to add embeds at fixed widths vs. 100%
+        "iframe[src*='wt.soundcloud.com']",
+        // Making sure Fitvids does not apply to the Tumblr audio players
+        "object:not([src*='http://assets.tumblr.com/swf/audio'])",
+        "embed:not([src*='http://assets.tumblr.com/swf/audio'])"
       ];
 
       if (settings.customSelector) {
